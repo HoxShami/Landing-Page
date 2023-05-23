@@ -1,0 +1,197 @@
+*{
+  font-family: sans-serif;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+.navbar{
+ background-color: rgb(169, 194, 201);
+ font-family: sans-serif;
+ padding-left: 15px; padding-right: 15px;
+ height: 100px;
+}
+.navdiv{
+ display: flex; align-items: center; justify-content: space-between;
+ height: 100px;
+}
+.logo{
+ margin-left: 120px;
+ margin-right: 200px;
+}
+.navbar li{
+ list-style: none; display: inline-block;
+}
+.navbar li a{
+ color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+.cart{
+ margin-right: -11%;
+}
+.button{
+ margin-right: -6.6%;
+}
+button{
+ background-color: black; 
+ margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px; 
+}
+button a{
+ color: white; font-weight: bold; font-size: 15px;   
+}
+.front{
+ position: relative;
+ padding: 12px;
+ padding-left: 40px;
+}
+#shopnow{ 
+ background-color: green; 
+ position: absolute;
+ bottom: 145px;
+ left: 196px;
+ width: 200px; height: 70px;
+}
+nav.list{
+ display: flex;
+ justify-content: space-between;
+}
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ max-width: 300px;
+ margin: auto;
+ text-align: center;
+ font-family: arial;
+}
+
+.price {
+ color: grey;
+ font-size: 22px;
+}
+.Bestseller{
+ border: none;
+ padding: 5px;
+ color: white;
+ background-color: #e0c31f;
+ text-align: center;
+ cursor: pointer;
+ width: 25%;
+ font-size: 10px;
+ position: relative;  left: 105px; bottom: 320px; 
+}
+.addtocart {
+ border: none;
+ outline: 0;
+ padding: 12px;
+ color: white;
+ background-color: #000;
+ text-align: center;
+ cursor: pointer;
+ width: 50%;
+ font-size: 18px;
+}
+.card button:hover {
+ opacity: 0.7;
+}
+.carticon{
+position: relative; left: 109px; bottom: 69px;
+}
+.event div{
+  display: flexbox;
+}
+.event div h1{
+  font-size: 50px; margin-left: 500px; padding-top: 10px;
+}
+.event div p a{
+  float: right; margin-top: -60px; color: rgb(15, 207, 15);
+}
+nav.liste{
+  display: flex;
+}
+.carde {
+  display: inline-flex; position: relative; justify-content: space-around;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 380px; padding-left: 20px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+ }
+ .explore1{
+  border: none;
+  outline: 0; position: absolute;
+  margin-top: 260px; margin-left: 30px; 
+  color: white;
+  background-color: rgb(11, 151, 11);
+  cursor: pointer;
+  width: 30%;
+  font-size: 18px;
+ }
+ .explore2{
+  border: none;
+  outline: 0; position: absolute;
+  margin-top: 260px; margin-left: 30px; 
+  color: white;
+  background-color: rgb(11, 151, 11);
+  cursor: pointer;
+  width: 30%;
+  font-size: 18px;
+ }
+.liste div h1{
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+ }
+.story{
+padding: 10px;
+}
+.story video{
+display: flex; justify-content: center; align-items: center; 
+}
+.story h1{
+display: flex; justify-content: center; 
+color: rgb(71, 68, 68); font-size: 35px; font-weight: bold; 
+}
+.bottomdiv{
+background-color: rgb(29,34,40); height: 300; color: white;
+display: flex; justify-content: space-evenly;
+}
+.about{
+position: relative; float: left;
+}
+.bottomdiv ul{
+list-style: none; padding: 0; margin: 0;
+}
+.bottomdiv ul li{
+margin-top: -5px; padding: 10px; font-size: 14px;
+}
+.subscribe{
+color: white; background-color: rgb(70,157,122); border-radius: 10px; margin-right: -100px; margin-left: -20px;
+}
+.promotion ul li input{
+border-radius: 0px;
+background-color: rgb(29,34,40);
+display: block;
+ margin: 0;
+ width: 100%;
+ margin: 0;
+ padding-left: 20px;
+ border: none;
+ min-width: 200px
+}
+.promotion ul li {
+ display: inline-flex;
+ border: 1px solid #717171;
+ border-radius: 5px;
+ overflow: hidden;
+}
+
+.promotion .subscribe {
+display: block;
+ margin: auto;
+ width: 100%;
+ margin: 0;
+ border: none;
+ border-radius: 0
+}
+.social ul li{
+  display: inline-block; margin-top: 20px; border: none;
+}
