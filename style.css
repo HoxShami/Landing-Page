@@ -158,10 +158,10 @@ display: flex; justify-content: space-evenly;
 position: relative; float: left;
 }
 .bottomdiv ul{
-list-style: none; padding: 0; margin: 0;
+list-style: none; padding: 0; margin: 0; 
 }
 .bottomdiv ul li{
-margin-top: -5px; padding: 10px; font-size: 14px;
+margin-top: -5px; padding: 10px; font-size: 14px; 
 }
 .subscribe{
 color: white; background-color: rgb(70,157,122); border-radius: 10px; margin-right: -100px; margin-left: -20px;
